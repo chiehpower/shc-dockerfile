@@ -16,12 +16,6 @@ You can build this image from dockerfile or pull from my [docker hub](https://hu
 
 ### Usage
 
-### docker pull
-
-```
-docker pull chiehpower/shc:1.0
-```
-### docker build
 For example:
 
 My script was named as `test.sh`.
@@ -30,13 +24,24 @@ My script was named as `test.sh`.
 shc -e 01/06/2030 -m "Please contact the administrator." -r -v -f test.sh
 ```
 
-
 ### Docker
 
-Build the image:
+**Build the image**
 
 ```
 docker build -t chiehpower/shc:1.0 .
+```
+
+**Pull the image**
+
+```
+docker pull chiehpower/shc:1.0
+```
+
+**Start the container**
+
+```
+docker run --name shc -ti chiehpower/shc:1.0 bash 
 ```
 
 ### Reference
