@@ -3,7 +3,7 @@
 
 We can download the source code from here: https://github.com/neurobin/shc/releases
 
-You can build this image from dockerfile or pull from my [docker hub]()
+You can build this image from dockerfile or pull from my [docker hub](https://hub.docker.com/repository/docker/chiehpower/shc/general)
 
 ### Options
 
@@ -38,3 +38,7 @@ Build the image:
 ```
 docker build -t chiehpower/shc:1.0 .
 ```
+
+### Reference
+
+- [Official website](https://linux.die.net/man/1/shc)
